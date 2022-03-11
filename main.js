@@ -2,7 +2,7 @@
 
 var stats = {
     wallsCleared: 0,
-    timeSinceLastWallCleared: 10000000,
+    timeSinceLastWallCleared: 0,
     wallTime: /**new Decimal(10000)**/ 10000,
     timeToolLevel: 0,
     lastTick: Date.now()
